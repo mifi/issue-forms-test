@@ -65,13 +65,13 @@ body:
     id: error-report
     attributes:
       label: Provide error report
-      description: Please provide the error report if you got one (Menu: Help -> Report an error)
+      description: 'Please provide the error report if you got one (Menu: Help -> Report an error)'
     validations:
       required: false
   - type: textarea
     id: share-log
     attributes:
       label: Share log
-      description: If you have a problem or an unexpected bug or crash, please open developer tools after starting LosslessCut and before doing the failing operation. Then share the output from the javascript Console. (Menu: Tools > Toggle Developer Tools)
+      description: 'If you have a problem or an unexpected bug or crash, please open developer tools after starting LosslessCut and before doing the failing operation. Then share the output from the javascript Console. (Menu: Tools > Toggle Developer Tools)'
     validations:
       required: false
