@@ -57,14 +57,14 @@ body:
   - type: input
     id: share-file
     attributes:
-      label: Particular file
+      label: Problem with a articular file?
       description: If you have an issue cutting a particular file, please also share the file here, if possible. (or mail a link to finstaden@gmail.com if private.) Also please try to cut it with the ffmpeg command line directly.
     validations:
       required: false
   - type: textarea
     id: error-report
     attributes:
-      label: Provide error report
+      label: Provide an error report
       description: 'Please provide the error report if you got one (Menu: Help -> Report an error)'
     validations:
       required: false
